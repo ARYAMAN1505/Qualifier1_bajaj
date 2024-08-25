@@ -11,9 +11,9 @@ def bfhl():
 
     if request.method == 'POST':
         data = request.json.get('data', [])
-        user_id = "your_full_name_ddmmyyyy"  # replace with actual format
-        email = "your_email@college.edu"  # replace with your email
-        roll_number = "your_roll_number"  # replace with your roll number
+        user_id = aryaman_somvanshi_15032003
+        email = aryaman.somvanshi2021@vitstudent.ac.in  
+        roll_number = 21BCE0582 
         
         numbers = [item for item in data if item.isdigit()]
         alphabets = [item for item in data if item.isalpha()]
